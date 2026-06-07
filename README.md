@@ -1,8 +1,8 @@
-🌦️ 3-Day Weather Forecasting System (Pakistan)
+**🌦️ 3-Day Weather Forecasting System (Pakistan)**
 
 A machine learning-powered Streamlit web application that predicts the next 3 days weather forecast for major cities in Pakistan using historical weather data (2000–2024).
 
-🚀 Project Overview
+**🚀 Project Overview**
 
 This project uses time-series machine learning models to analyze historical weather patterns and forecast:
 
@@ -13,7 +13,7 @@ This project uses time-series machine learning models to analyze historical weat
 
 The system provides an interactive Streamlit dashboard where users can select a city and instantly get a 3-day weather prediction.
 
-🎯 Features
+**🎯 Features**
 📍 City-wise weather forecasting (Pakistan)
 📊 3-day weather prediction using ML models
 📈 Visual charts for temperature, humidity, and rainfall
@@ -23,16 +23,14 @@ The system provides an interactive Streamlit dashboard where users can select a 
 ☁️ Real-world dataset (2000–2024 weather history)
 🧠 Machine Learning Approach
 
-The model is trained using historical weather data with feature engineering:
-
-🔹 Techniques Used:
+**🔹 Techniques Used:**
 Lag features (t-1, t-2, t-3 days)
 Feature scaling (StandardScaler / MinMaxScaler)
 Time-series forecasting approach
 🔹 Possible Models:
 Random Forest Regressor
 
-⚙️ Installation & Setup
+**⚙️ Installation & Setup**
 1️⃣ Clone the Repository
 git clone https://github.com/shayan-mir002/weather-prediction-model.git
 cd AI PROJECT
@@ -44,30 +42,12 @@ If requirements.txt is not available:
 pip install streamlit pandas numpy scikit-learn matplotlib
 3️⃣ Run the Streamlit App
 streamlit run app.py
-🖥️ How It Works
+
+**🖥️ How It Works**
 User selects a city from sidebar
 System loads historical weather patterns
 ML model processes lag-based features
 Forecast is generated for next 3 days
 Results displayed with charts and metrics
 
-🎨 UI Highlights
-Dashboard-style layout
-Emoji-based weather indicators ☀️🌧️⛅
-Interactive charts (line & bar graphs)
-Clean sidebar controls
 
-🔮 Future Improvements
-Add real-time weather API integration 🌍
-Improve accuracy using deep learning (LSTM/GRU)
-
-Expand to 7-day forecasting
-Add rainfall alerts & notifications
-Deploy on cloud (Streamlit Cloud / AWS)
-
-👨‍💻 Tech Stack
-Python 🐍
-Streamlit 🎈
-Pandas & NumPy 📊
-Scikit-learn 🤖
-Matplotlib 📈
